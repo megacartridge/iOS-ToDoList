@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		0801A65818E37A79002E07F8 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0801A65718E37A79002E07F8 /* Main.storyboard */; };
 		082DE87818E36BCF0046FABE /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 082DE87718E36BCF0046FABE /* Foundation.framework */; };
 		082DE87A18E36BCF0046FABE /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 082DE87918E36BCF0046FABE /* CoreGraphics.framework */; };
 		082DE87C18E36BCF0046FABE /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 082DE87B18E36BCF0046FABE /* UIKit.framework */; };
@@ -32,6 +33,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		0801A65718E37A79002E07F8 /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Main.storyboard; sourceTree = "<group>"; };
 		082DE87418E36BCF0046FABE /* ToDoList.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ToDoList.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		082DE87718E36BCF0046FABE /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		082DE87918E36BCF0046FABE /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
@@ -109,6 +111,7 @@
 			children = (
 				082DE88618E36BCF0046FABE /* AppDelegate.h */,
 				082DE88718E36BCF0046FABE /* AppDelegate.m */,
+				0801A65718E37A79002E07F8 /* Main.storyboard */,
 				082DE88918E36BCF0046FABE /* Images.xcassets */,
 				082DE87E18E36BCF0046FABE /* Supporting Files */,
 			);
@@ -219,6 +222,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				0801A65818E37A79002E07F8 /* Main.storyboard in Resources */,
 				082DE88218E36BCF0046FABE /* InfoPlist.strings in Resources */,
 				082DE88A18E36BCF0046FABE /* Images.xcassets in Resources */,
 			);
@@ -437,6 +441,7 @@
 				082DE8A218E36BCF0046FABE /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		082DE8A318E36BCF0046FABE /* Build configuration list for PBXNativeTarget "ToDoListTests" */ = {
 			isa = XCConfigurationList;
@@ -445,6 +450,7 @@
 				082DE8A518E36BCF0046FABE /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
