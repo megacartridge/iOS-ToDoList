@@ -8,6 +8,6 @@
 
 #import <UIKit/UIKit.h>
 
-@interface ToDoListTableViewController : UITableViewController
+@interface XYZToDoListViewController : UITableViewController
 - (IBAction)unwindToList:(UIStoryboardSegue *)segue;
 @end
