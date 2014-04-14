@@ -9,6 +9,9 @@
 #import "XYZAddToDoItemViewController.h"
 
 @interface XYZAddToDoItemViewController ()
+@property (weak, nonatomic) IBOutlet UITextField *textField;
+@property (weak, nonatomic) IBOutlet UIBarButtonItem *doneButton;
+
 
 @end
 

@@ -55,8 +55,8 @@
 		082DE89818E36BCF0046FABE /* ToDoListTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "ToDoListTests-Info.plist"; sourceTree = "<group>"; };
 		082DE89A18E36BCF0046FABE /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		082DE89C18E36BCF0046FABE /* ToDoListTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ToDoListTests.m; sourceTree = "<group>"; };
-		08499FEB18E4C4EC0075EE50 /* XYZAddToDoItemViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XYZAddToDoItemViewController.h; sourceTree = "<group>"; };
-		08499FEC18E4C4EC0075EE50 /* XYZAddToDoItemViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XYZAddToDoItemViewController.m; sourceTree = "<group>"; };
+		08499FEB18E4C4EC0075EE50 /* XYZAddToDoItemViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = XYZAddToDoItemViewController.h; path = ../XYZAddToDoItemViewController.h; sourceTree = "<group>"; };
+		08499FEC18E4C4EC0075EE50 /* XYZAddToDoItemViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = XYZAddToDoItemViewController.m; path = ../XYZAddToDoItemViewController.m; sourceTree = "<group>"; };
 		08499FEE18E4C8D00075EE50 /* XYZToDoListViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XYZToDoListViewController.h; sourceTree = "<group>"; };
 		08499FEF18E4C8D00075EE50 /* XYZToDoListViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XYZToDoListViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -88,8 +88,6 @@
 		082DE86B18E36BCF0046FABE = {
 			isa = PBXGroup;
 			children = (
-				08499FEB18E4C4EC0075EE50 /* XYZAddToDoItemViewController.h */,
-				08499FEC18E4C4EC0075EE50 /* XYZAddToDoItemViewController.m */,
 				082DE87D18E36BCF0046FABE /* ToDoList */,
 				082DE89618E36BCF0046FABE /* ToDoListTests */,
 				082DE87618E36BCF0046FABE /* Frameworks */,
@@ -125,6 +123,8 @@
 				0801A65718E37A79002E07F8 /* Main.storyboard */,
 				0828AC5718EB3459000E3636 /* XYZToDoItem.h */,
 				0828AC5818EB3459000E3636 /* XYZToDoItem.m */,
+				08499FEB18E4C4EC0075EE50 /* XYZAddToDoItemViewController.h */,
+				08499FEC18E4C4EC0075EE50 /* XYZAddToDoItemViewController.m */,
 				08499FEE18E4C8D00075EE50 /* XYZToDoListViewController.h */,
 				08499FEF18E4C8D00075EE50 /* XYZToDoListViewController.m */,
 				082DE88918E36BCF0046FABE /* Images.xcassets */,
